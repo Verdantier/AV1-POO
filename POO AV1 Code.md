@@ -31,13 +31,12 @@ public class Program
 		mensagemAudio.Mensagem = "Escuta esse Podcast antes de assistir a segunda temporada";
 		mensagemAudio.Arquivo = "Podcast - Sweet Home.MP3";
 		mensagemAudio.Formato = FileType.MP3;
-		mensagemAudio.Duracao = 300;
 
         // Enviando mensagem básica
         whatsAppProfessor.EnviarMensagem("+5511964687373", mensagem);
 
         // Enviando mensagem de vídeo
-        instaAluno.EnviarMensagem("+5511964687373", mensagemVideo);
+        instaAluno.EnviarMensagem("@alvrinhotbz", mensagemVideo);
 
         // Enviando mensagem de foto
         telegramCanal.EnviarMensagem("+5511964687373", mensagemFoto);
